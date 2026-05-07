@@ -7,5 +7,10 @@ It also has a matching 3D printed box to house the circuit as a keychain hanger 
 
 ![alt text](https://github.com/tanmoydutta/confundus/blob/main/images/ConfundusBox.png?raw=true)
 
+Some of the actual view of the project - 
+![alt text](https://github.com/tanmoydutta/confundus/blob/main/images/Confundus_back.jpg?raw=true)
+
+![alt text](https://github.com/tanmoydutta/confundus/blob/main/images/Confundus_front.jpg?raw=true)
+
 
 ![alt text](https://github.com/tanmoydutta/confundus/blob/main/images/oshw_license.png?raw=true)
