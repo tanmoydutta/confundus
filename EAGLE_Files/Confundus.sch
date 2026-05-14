@@ -11368,6 +11368,11 @@ DIN A4, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
+<text x="165.1" y="-182.88" size="1.778" layer="94">LED Matrix</text>
+<text x="165.1" y="10.16" size="1.778" layer="94">This is a charging circuit for a LIC Super  
+Capacitor. It is combined with a 3.3V 
+buck converter to power an ATTiny1616
+ Microcontroller.</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="91.44" y="60.96" smashed="yes" grouprefs="CONTROLLER">
@@ -12920,6 +12925,10 @@ DIN A4, landscape with location and doc. field</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
