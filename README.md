@@ -13,4 +13,12 @@ Some of the actual view of the project -
 ![alt text](https://github.com/tanmoydutta/confundus/blob/main/images/Confundus_front.jpg?raw=true)
 
 
+This project is certified as Open Source Hardware - 
+<p align="center">
+  <a href="https://certification.oshwa.org/nl000043.html">
+    <img src="/images/certification-mark-NL000043-wide.png?raw=true" alt="OSHWA" width="350" title="OSHWA Certification">
+  </a>
+</p>
+
+
 ![alt text](https://github.com/tanmoydutta/confundus/blob/main/images/oshw_license.png?raw=true)
