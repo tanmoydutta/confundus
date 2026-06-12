@@ -9640,6 +9640,72 @@ Source: &lt;a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/A
 </deviceset>
 </devicesets>
 </library>
+<library name="MBR120VLSFT1G">
+<description>&lt;Diode Schottky 20V 1A SOD123FL ON Semi MBR120VLSFT1G, SMT Schottky Diode, 20V 1A, 2-Pin SOD-123FL&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SODFL3616X98N">
+<description>&lt;b&gt;SOD-123FL CASE498&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.5" y="0" dx="1.24" dy="1.12" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.24" dy="1.12" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.27" y1="1.05" x2="2.27" y2="1.05" width="0.05" layer="51"/>
+<wire x1="2.27" y1="1.05" x2="2.27" y2="-1.05" width="0.05" layer="51"/>
+<wire x1="2.27" y1="-1.05" x2="-2.27" y2="-1.05" width="0.05" layer="51"/>
+<wire x1="-2.27" y1="-1.05" x2="-2.27" y2="1.05" width="0.05" layer="51"/>
+<wire x1="-1.35" y1="0.825" x2="1.35" y2="0.825" width="0.1" layer="51"/>
+<wire x1="1.35" y1="0.825" x2="1.35" y2="-0.825" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-0.825" x2="-1.35" y2="-0.825" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="-0.825" x2="-1.35" y2="0.825" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="0.205" x2="-0.73" y2="0.825" width="0.1" layer="51"/>
+<wire x1="-2.12" y1="0.825" x2="1.35" y2="0.825" width="0.2" layer="21"/>
+<wire x1="-1.35" y1="-0.825" x2="1.35" y2="-0.825" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MBR120VLSFT1G">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="11.43" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="11.43" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="middle"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.08" y="0"/>
+<vertex x="10.16" y="2.54"/>
+<vertex x="10.16" y="-2.54"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MBR120VLSFT1G" prefix="D">
+<description>&lt;b&gt;Diode Schottky 20V 1A SOD123FL ON Semi MBR120VLSFT1G, SMT Schottky Diode, 20V 1A, 2-Pin SOD-123FL&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MBR120VLSFT1G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SODFL3616X98N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Diode Schottky 20V 1A SOD123FL ON Semi MBR120VLSFT1G, SMT Schottky Diode, 20V 1A, 2-Pin SOD-123FL" constant="no"/>
+<attribute name="HEIGHT" value="0.98mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MBR120VLSFT1G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-MBR120VLSFT1G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MBR120VLSFT1G?qs=3JMERSakebpX%252BkItPpFCkg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9768,10 +9834,10 @@ Source: &lt;a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/A
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="IC1" library="MIC5219YM5_TR" deviceset="MIC5219YM5_TR" device="" override_package3d_urn="urn:adsk.eagle:package:52775026/2" override_package_urn="urn:adsk.eagle:footprint:52775027/1"/>
-<part name="Q1" library="DMG3415U-7" deviceset="DMG3415U-7" device="" override_package3d_urn="urn:adsk.eagle:package:51305947/2" override_package_urn="urn:adsk.eagle:footprint:51305948/1"/>
 <part name="U$3" library="Adafruit Feather STM32F405 Express" deviceset="MICROBUILDER_VBUS" device="" value="VBUS"/>
 <part name="U$7" library="Adafruit Feather STM32F405 Express" deviceset="MICROBUILDER_VBUS" device="" value="VBUS"/>
 <part name="R4" library="ERJ1TYJ220U" deviceset="ERJ1TYJ220U" device="" override_package3d_urn="urn:adsk.eagle:package:52775042/2" override_package_urn="urn:adsk.eagle:footprint:52775043/1"/>
+<part name="D1" library="MBR120VLSFT1G" deviceset="MBR120VLSFT1G" device="" override_package3d_urn="urn:adsk.eagle:package:53013620/2" override_package_urn="urn:adsk.eagle:footprint:53013621/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10213,10 +10279,6 @@ buck converter to power an ATTiny1616
 <attribute name="NAME" x="128.27" y="162.56" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="125.73" y="160.02" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="Q1" gate="G$1" x="170.18" y="160.02" smashed="yes" rot="R270" grouprefs="ADJUSTABLE_LDO">
-<attribute name="NAME" x="166.37" y="148.59" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="171.45" y="158.75" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="U$3" gate="G$1" x="111.76" y="162.56" smashed="yes" grouprefs="ADJUSTABLE_LDO">
 <attribute name="VALUE" x="110.236" y="163.576" size="1.27" layer="96"/>
 </instance>
@@ -10226,6 +10288,10 @@ buck converter to power an ATTiny1616
 <instance part="R4" gate="G$1" x="182.88" y="149.86" smashed="yes" rot="R270" grouprefs="ADJUSTABLE_LDO">
 <attribute name="NAME" x="189.23" y="135.89" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="186.69" y="148.59" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="D1" gate="G$1" x="180.34" y="152.4" smashed="yes" rot="R180" grouprefs="ADJUSTABLE_LDO">
+<attribute name="NAME" x="173.99" y="147.32" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="181.61" y="157.48" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -10336,12 +10402,6 @@ buck converter to power an ATTiny1616
 <wire x1="154.94" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="121.92" x2="160.02" y2="124.46" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="170.18" y1="160.02" x2="170.18" y2="162.56" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
-<wire x1="170.18" y1="162.56" x2="165.1" y2="162.56" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
-<wire x1="165.1" y1="162.56" x2="165.1" y2="121.92" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
-<wire x1="165.1" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
-<junction x="160.02" y="121.92" grouprefs="ADJUSTABLE_LDO"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -11278,21 +11338,21 @@ buck converter to power an ATTiny1616
 <wire x1="147.32" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <wire x1="149.86" y1="152.4" x2="149.86" y2="144.78" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="149.86" y1="152.4" x2="160.02" y2="152.4" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <junction x="149.86" y="152.4" grouprefs="ADJUSTABLE_LDO"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <wire x1="160.02" y1="149.86" x2="160.02" y2="152.4" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <junction x="160.02" y="152.4" grouprefs="ADJUSTABLE_LDO"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="180.34" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="152.4" x2="182.88" y2="149.86" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="180.34" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91" grouprefs="ADJUSTABLE_LDO"/>
 </segment>
 </net>
 </nets>
